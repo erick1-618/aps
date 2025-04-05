@@ -11,7 +11,7 @@ public abstract class RealizarCompraTemplate {
 	 * Esse é o elemento chave do Template Method, que define a estrutura do algoritmo, isto é, a ordem dos passos a serem seguidos, e isso não muda
 	 */
 	public final void realizarCompra(){
-		escolherProduto();
+		escolherProduto();    
 		prepararPagamento();
 		pagar();
 	}
