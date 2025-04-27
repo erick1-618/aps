@@ -31,7 +31,6 @@ public class Entregue implements StatePedido{
 	
 	@Override
 	public void cancelarPedido() {
-		System.out.println("Cancelando o pedido");
-		this.central.setState(new Cancelado(central));
+		System.out.println("Pedido já entregue não pode ser cancelado");
 	}
 }
